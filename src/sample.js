@@ -1,4 +1,4 @@
-class Sample {
+export default class Sample {
   constructor(num = 1) {
     this.number = num;
   }
@@ -10,4 +10,4 @@ class Sample {
   }
 }
 
-module.exports = Sample;
+// module.exports = Sample;

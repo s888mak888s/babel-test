@@ -1,5 +1,7 @@
-var Sample = require('./sample.js');
-var Person = require('./person.js');
+// var Sample = require('./sample.js');
+// var Person = require('./person.js');
+import Sample from './sample'
+import Person from './person'
 
 var sample = new Sample;
 sample.getNumber(); // -> Number is 1

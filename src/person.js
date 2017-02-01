@@ -1,4 +1,4 @@
-class Person {
+export default class Person {
   constructor(id = -1, name, birth) {
     this.id = id
     this.name = name
@@ -21,4 +21,4 @@ class Person {
   static ja() { return "japan" }
 }
 
-module.exports = Person;
+// module.exports = Person;
